@@ -4,7 +4,7 @@ body {
     color: #222;
 }
 
-.content {
+#content {
     width: 600px;
     height: 350px;
     margin: auto;
@@ -88,22 +88,23 @@ body {
 
 #header {
     position: absolute;
-    width: 100%;
+    width: 99%;
     top: 15px;
     height: 30px;
     line-height: 30px;
 }
 
-#rightHeader, #leftHeader, #icons {
-    margin-right: 25px;
+#rightHeader, #rightFooter {
+    padding-right: 25px;
 }
 
-#rightHeader, #icons {
+#rightHeader, #icons, #rightFooter {
     float: right;
 }
 
-#leftHeader {
+#leftHeader, #leftFooter {
     float: left;
+    padding-left: 10px;
 }
 
 .link {
@@ -158,4 +159,14 @@ body {
 
 #icons a {
     margin-right: 15px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
 }
